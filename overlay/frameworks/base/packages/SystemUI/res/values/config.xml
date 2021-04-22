@@ -18,6 +18,9 @@
 <resources>
     <dimen name="rounded_corner_content_padding">16dp</dimen>
 
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
 
