@@ -11,16 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from toco device
 $(call inherit-product, device/xiaomi/toco/device.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common KangOS stuff.
+$(call inherit-product, vendor/kangos/config/common.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-WITH_GAPPS := true
-EXTRA_FOD_ANIMATIONS = true
+KANGOS_BUILDTYPE := UNOFFICIAL
+TARGET_USES_BLUR := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+USE_GAPPS := false
+TARGET_OPLAUNCHER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_toco
+PRODUCT_NAME := kangos_toco
 PRODUCT_DEVICE := toco
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10 Lite
