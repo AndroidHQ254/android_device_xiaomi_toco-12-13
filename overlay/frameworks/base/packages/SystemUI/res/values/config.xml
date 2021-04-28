@@ -20,6 +20,7 @@
 
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
+    <integer name="config_shift_interval">40</integer>
 
     <!-- Smart replies in notifications: Whether by default tapping on a choice should let the user
          edit the input before it is sent to the app. Developers can override this via
