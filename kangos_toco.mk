@@ -14,7 +14,8 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common KangOS stuff.
 $(call inherit-product, vendor/kangos/config/common.mk)
 
-KANGOS_BUILDTYPE := UNOFFICIAL
+KANGOS_BUILDTYPE := OFFICIAL
+
 TARGET_USES_BLUR := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
