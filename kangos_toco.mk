@@ -23,7 +23,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 TARGET_USES_BLUR := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
-USE_GAPPS := false
+USE_GAPPS := true
 TARGET_OPLAUNCHER := true
 
 # Device identifier. This must come after all inclusions.
