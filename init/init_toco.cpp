@@ -107,21 +107,21 @@ void vendor_load_properties() {
         model = "Mi Note 10 Lite";
         device = "toco";
         fingerprint =
-                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.1.4.0.RFNMIXM:user/release-keys";
-        description = "toco-user 11 RKQ1.200826.002 V12.1.4.0.RFNMIXM release-keys";
+                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.5.1.0.RFNMIXM:user/release-keys";
+        description = "toco-user 11 RKQ1.200826.002 V12.5.1.0.RFNMIXM release-keys";
         mod_device = "toco_global";
     } else if (region == "RU") {
         model = "Mi Note 10 Lite";
         device = "toco";
         fingerprint =
-                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.1.4.0.RFNMIXM:user/release-keys";
-        description = "toco-user 11 RKQ1.200826.002 V12.1.4.0.RFNMIXM release-keys";
+                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.5.1.0.RFNMIXM:user/release-keys";
+        description = "toco-user 11 RKQ1.200826.002 V12.5.1.0.RFNMIXM release-keys";
     } else if (region == "EEA") {
         model = "Mi Note 10 Lite";
         device = "toco";
         fingerprint =
-                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.1.4.0.RFNMIXM:user/release-keys";
-        description = "toco-user 11 RKQ1.200826.002 V12.1.4.0.RFNMIXM release-keys";
+                "Xiaomi/toco_global/toco:11/RKQ1.200826.002/V12.5.1.0.RFNMIXM:user/release-keys";
+        description = "toco-user 11 RKQ1.200826.002 V12.5.1.0.RFNMIXM release-keys";
         mod_device = "toco_global";
     }
 
