@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "AndroidHQ254/android_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "2.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "vantoman/kernel_xiaomi_sm6150",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "android11"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AndroidHQ254/vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "hw"
+    }
+]
