@@ -22,4 +22,5 @@
         "repository":   "chiru2000/vendor_xiaomi_google",
         "target_path":  "vendor/xiaomi/google",
         "revision":     "master"
+    }
 ]
