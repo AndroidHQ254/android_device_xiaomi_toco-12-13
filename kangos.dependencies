@@ -7,9 +7,9 @@
     },
     {
         "remote":       "github",
-        "repository":   "AndroidHQ254/android_vendor_xiaomi",
+        "repository":   "AndroidHQ254/vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
-        "branch":       "lineage-18.1"
+        "branch":       "hw"
     },
     {
         "remote":       "github",
