@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := AmbientSensePrebuilt AppDirectedSMSService
+LOCAL_OVERRIDES_PACKAGES := AmbientSensePrebuilt AppDirectedSMSService Maps YouTube Drive PrebuiltGmail
 LOCAL_OVERRIDES_PACKAGES += CarrierSetup ConnMO DCMO
 LOCAL_OVERRIDES_PACKAGES += DMService
 LOCAL_OVERRIDES_PACKAGES += MyVerizonServices
