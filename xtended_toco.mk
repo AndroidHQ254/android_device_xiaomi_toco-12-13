@@ -11,16 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from toco device
 $(call inherit-product, device/xiaomi/toco/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Xtended stuff.
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := UNOFFICIAL
+# Xtended Stuff
+XTENDED_BUILD_TYPE := UNOFFICIAL
+XTENDED_BUILD_MAINTAINER := DennisMurimi
+XTENDED_BUILD_DONATE_URL := https://paypal.me/ahq254
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_GAPPS_ARCH := arm64
 EXTRA_FOD_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_toco
+PRODUCT_NAME := xtended_toco
 PRODUCT_DEVICE := toco
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10 Lite
