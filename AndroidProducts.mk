@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_toco.mk
+    $(LOCAL_DIR)/aosp_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_toco-user \
-    xtended_toco-userdebug \
-    xtended_toco-eng
+    aosp_toco-user \
+    aosp_toco-userdebug \
+    aosp_toco-eng
