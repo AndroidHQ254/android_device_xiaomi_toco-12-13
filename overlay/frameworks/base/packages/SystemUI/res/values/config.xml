@@ -21,61 +21,6 @@
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
 
-    <!-- Smart replies in notifications: Whether by default tapping on a choice should let the user
-         edit the input before it is sent to the app. Developers can override this via
-         RemoteInput.Builder.setEditChoicesBeforeSending. -->
-    <bool name="config_smart_replies_in_notifications_edit_choices_before_sending">true</bool>
-
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
-
-	<!-- Unify back gesture vibration with system wide haptics -->
-    <bool name="config_vibrateOnIconAnimation">true</bool>
-
-    <!-- The number of columns in the QuickSettings -->
-    <integer name="quick_settings_num_columns">4</integer>
-
-    <!-- The number of rows in the QuickSettings -->
-    <integer name="quick_settings_max_rows">2</integer>
-
-    <!-- The default tiles to display in QuickSettings -->
-    <string name="quick_settings_tiles_default" translatable="false">wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,cast,hotspot,screenrecord,dark</string>
-
-    <!-- Tiles to auto add to Quick Settings upon first change of a given secure setting.
-         The syntax is setting-name:spec. If the tile is a TileService, the spec should be specified
-         as custom(package/class). Relative class name is supported. -->
-    <string-array name="config_quickSettingsAutoAdd" translatable="false">
-        <item>accessibility_display_inversion_enabled:inversion</item>
-        <item>wind_down_first_time_setup:custom(com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService)</item>
-        <item>focus_mode_first_time_setup:custom(com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService)</item>
-    </string-array>
-
-    <!-- Type of a sensor that provides a low-power estimate of the desired display
-         brightness, suitable to listen to while the device is asleep (e.g. during
-         always-on display) -->
-    <string name="doze_brightness_sensor_type" translatable="false">xiaomi.sensor.aod</string>
-
-    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
-               to brightness values; -1 means keeping the current brightness. -->
-    <integer-array name="config_doze_brightness_sensor_to_brightness">
-        <item>-1</item>
-        <item>-1</item>
-        <item>-1</item>
-        <item>1</item>
-        <item>255</item>
-        <item>1</item>
-    </integer-array>
-
-    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
-               to an opacity value for a black scrim that is overlayed in AOD1.
-               Valid range is from 0 (transparent) to 255 (opaque).
-               -1 means keeping the current opacity. -->
-    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
-        <item>-1</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-    </integer-array>
 </resources>
