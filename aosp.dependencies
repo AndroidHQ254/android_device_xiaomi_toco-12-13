@@ -9,7 +9,7 @@
         "remote":       "github",
         "repository":   "vantoman/kernel_xiaomi_sm6150",
         "target_path":  "kernel/xiaomi/sm6150",
-        "revision":     "android11"
+        "revision":     "android11-newdoze"
     },
     {
         "remote":       "github",
