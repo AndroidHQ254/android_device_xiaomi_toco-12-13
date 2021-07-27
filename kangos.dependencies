@@ -28,5 +28,11 @@
         "repository":   "AndroidHQ254/vendor_xiaomi_google",
         "target_path":  "vendor/xiaomi/google",
         "revision":     "r11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_vendor_qcom_opensource_wfd-commonsys",
+        "target_path":  "vendor/qcom/opensource/wfd-commonsys",
+        "revision":     "lineage-18.1"
     }
 ]
