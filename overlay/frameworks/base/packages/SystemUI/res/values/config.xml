@@ -30,4 +30,7 @@
 
     <!-- Allow devices to hide black gradient behind QS Panel -->
     <bool name="config_hideQSBlackGradient">true</bool>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 </resources>
