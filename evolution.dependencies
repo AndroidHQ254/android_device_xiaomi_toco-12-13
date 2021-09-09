@@ -22,5 +22,12 @@
         "repository":   "AndroidHQ254/vendor_xiaomi_google",
         "target_path":  "vendor/xiaomi/google",
         "revision":     "r11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AndroidHQ254/proton-clang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "revision":     "proton"
+        "clone-depth":  "1"
     }
 ]
