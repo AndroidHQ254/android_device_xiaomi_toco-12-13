@@ -28,5 +28,12 @@
         "repository":   "LineageOS/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
         "revision":     "lineage-18.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AndroidHQ254/proton-clang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "revision":     "proton"
+        "clone-depth":  "1"
     }
 ]
