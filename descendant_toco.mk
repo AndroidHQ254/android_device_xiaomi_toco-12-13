@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common Descendant-XI stuff.
 $(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
+# Blur
+TARGET_SUPPORTS_BLUR := true
+
 # Descendant-XI Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 
