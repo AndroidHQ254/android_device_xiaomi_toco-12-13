@@ -20,6 +20,9 @@ TARGET_SUPPORTS_BLUR := true
 # Descendant-XI Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORT := YES
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := descendant_toco
 PRODUCT_DEVICE := toco
