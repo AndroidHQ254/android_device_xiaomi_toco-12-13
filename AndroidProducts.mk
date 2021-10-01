@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_toco.mk
+    $(LOCAL_DIR)/descendant_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_toco-user \
-    aosp_toco-userdebug \
-    aosp_toco-eng
+    descendant_toco-user \
+    descendant_toco-userdebug \
+    descendant_toco-eng
