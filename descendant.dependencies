@@ -34,5 +34,11 @@
         "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
         "branch":       "proton"
         "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_vendor_qcom_opensource_wfd-commonsys",
+        "target_path":  "vendor/qcom/opensource/wfd-commonsys",
+        "branch":       "lineage-18.1"
     }
 ]
