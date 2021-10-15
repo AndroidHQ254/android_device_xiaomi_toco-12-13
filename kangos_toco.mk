@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common KangOS stuff.
 $(call inherit-product, vendor/kangos/config/common.mk)
 
-KANGOS_BUILDTYPE := OFFICIAL
+KANGOS_BUILD_TYPE := OFFICIAL
 
 PRODUCT_PRODUCT_PROPERTIES += \
   	ro.kangos.maintainer=Dennis Murimi (AndroidHQ254) \
