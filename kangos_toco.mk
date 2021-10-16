@@ -17,8 +17,8 @@ $(call inherit-product, vendor/kangos/config/common.mk)
 KANGOS_BUILD_TYPE := OFFICIAL
 
 PRODUCT_PRODUCT_PROPERTIES += \
-  	ro.kangos.maintainer=Dennis Murimi (AndroidHQ254) \
-  	ro.kangos.cpu=SDM730
+  	ro.kangos.maintainer=DennisMurimi \
+  	ro.kangos.cpu=SDM730G
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
