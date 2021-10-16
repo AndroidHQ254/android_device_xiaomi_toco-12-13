@@ -20,7 +20,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
   	ro.kangos.maintainer=Dennis Murimi (AndroidHQ254) \
   	ro.kangos.cpu=SDM730
 
-TARGET_USES_BLUR := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 USE_GAPPS := true
