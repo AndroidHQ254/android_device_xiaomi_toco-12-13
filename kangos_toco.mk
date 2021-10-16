@@ -22,8 +22,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
-USE_GAPPS := true
-TARGET_OPLAUNCHER := true
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := kangos_toco
