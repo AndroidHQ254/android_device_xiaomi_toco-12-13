@@ -21,11 +21,4 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">1</integer>
-
-    <!-- Whether device supports an alt. ambient display -->
-    <bool name="config_alt_ambient_display">true</bool>
-
-	  <!-- Whether SELinux status should be shown or not. -->
-    <bool name="config_show_selinux_status">true</bool>
-
 </resources>
