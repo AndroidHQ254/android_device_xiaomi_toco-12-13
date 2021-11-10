@@ -110,7 +110,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemovePkgs
 
 # Sensors
 PRODUCT_PACKAGES += \
