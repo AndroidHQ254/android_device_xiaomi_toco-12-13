@@ -11,16 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from toco device
 $(call inherit-product, device/xiaomi/toco/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := UNOFFICIAL
+DERP_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
-EXTRA_FOD_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_toco
+PRODUCT_NAME := derp_toco
 PRODUCT_DEVICE := toco
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10 Lite

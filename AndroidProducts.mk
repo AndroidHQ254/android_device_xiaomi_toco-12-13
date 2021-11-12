@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_toco.mk
+    $(LOCAL_DIR)/derp_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_toco-user \
-    evolution_toco-userdebug \
-    evolution_toco-eng
+    derp_toco-user \
+    derp_toco-userdebug \
+    derp_toco-eng
