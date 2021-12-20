@@ -46,4 +46,7 @@
 
     <!-- Location on the screen of the center of the fingerprint sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1810px</dimen>
+
+    <!-- Custom udfps vendor code -->
+    <integer name="config_udfps_vendor_code">22</integer>
 </resources>
