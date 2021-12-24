@@ -17,6 +17,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 DERP_BUILD_TYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_toco
