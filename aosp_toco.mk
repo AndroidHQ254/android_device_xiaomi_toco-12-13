@@ -16,7 +16,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Maintainer
 PRODUCT_PRODUCT_PROPERTIES += \
-  	ro.elixir.maintainer=DennisMurimi
+  	ro.elixir.maintainer=DennisMurimi \
+	org.elixir.device=toco
 
 # Project Elixir Stuff
 TARGET_USES_AOSP_RECOVERY := true
