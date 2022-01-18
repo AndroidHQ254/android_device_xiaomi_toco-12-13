@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-DERP_BUILD_TYPE := Official
+DERP_BUILDTYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
