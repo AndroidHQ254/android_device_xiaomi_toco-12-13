@@ -23,6 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 EXTRA_UDFPS_ANIMATIONS := true
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_toco
