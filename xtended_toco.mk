@@ -22,7 +22,7 @@ XTENDED_BUILD_DONATE_URL := https://paypal.me/ahq254
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
-EXTRA_FOD_ANIMATIONS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_toco
