@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Xtended Stuff
+PROCESSOR_MODEL := SDM730G
 XTENDED_BUILD_TYPE := UNOFFICIAL
 XTENDED_BUILD_MAINTAINER := DennisMurimi
 XTENDED_BUILD_DONATE_URL := https://paypal.me/ahq254
