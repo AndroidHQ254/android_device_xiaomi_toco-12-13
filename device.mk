@@ -10,13 +10,6 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 # Enforce java interfaces of product partition
 PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
-# Disable APEX compression
-# Keep this after including updatable_apex.mk
-PRODUCT_COMPRESSED_APEX := false
-
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
