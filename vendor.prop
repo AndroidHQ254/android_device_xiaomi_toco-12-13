@@ -11,6 +11,11 @@ vendor.voice.path.for.pcm.voip=false
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7150
 
+# Display AD
+ro.vendor.display.ad=1
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
+ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
