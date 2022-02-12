@@ -25,6 +25,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_toco
