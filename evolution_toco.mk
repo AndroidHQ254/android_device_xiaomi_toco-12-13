@@ -17,7 +17,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
-EXTRA_FOD_ANIMATIONS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_toco
