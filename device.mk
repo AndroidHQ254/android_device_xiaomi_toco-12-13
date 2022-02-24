@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Storage health HAL
+PRODUCT_PACKAGES += \
+    android.hardware.health.storage@1.0-service
+
 # VNDK
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
