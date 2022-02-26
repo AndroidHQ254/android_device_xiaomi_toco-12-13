@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_toco.mk
+    $(LOCAL_DIR)/bliss_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_toco-user \
-    derp_toco-userdebug \
-    derp_toco-eng
+    bliss_toco-user \
+    bliss_toco-userdebug \
+    bliss_toco-eng
