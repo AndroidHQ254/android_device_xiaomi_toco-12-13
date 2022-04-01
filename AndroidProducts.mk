@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_toco.mk
+    $(LOCAL_DIR)/xdroid_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_toco-user \
-    aosp_toco-userdebug \
-    aosp_toco-eng
+    xdroid_toco-user \
+    xdroid_toco-userdebug \
+    xdroid_toco-eng
