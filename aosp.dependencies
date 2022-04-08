@@ -1,38 +1,23 @@
 [
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/android_device_xiaomi_sm6150-common",
-        "target_path":  "device/xiaomi/sm6150-common",
-        "branch":       "kang-12"
+        "repository":   "device_xiaomi_sm6150-common-toco",
+        "target_path":  "device/xiaomi/sm6150-common"
     },
     {
-        "remote":       "github",
-        "repository":   "vantoman/kernel_xiaomi_sm6150",
+        "repository":   "kernel_xiaomi_sm6150",
         "target_path":  "kernel/xiaomi/sm6150",
-        "branch":       "eleven"
+        "branch":       "snow"
     },
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "branch":       "eleven"
+        "repository":   "vendor_xiaomi",
+        "target_path":  "vendor/xiaomi"
     },
     {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/vendor_xiaomi_google",
+        "repository":   "vendor_xiaomi_google",
         "target_path":  "vendor/xiaomi/google"
     },
     {
-        "remote":       "github",
-        "repository":   "ArrowOS-Devices/android_hardware_xiaomi",
-        "target_path":  "hardware/xiaomi",
-        "branch":       "arrow-12.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "AndroidHQ254/proton-clang",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
-        "branch":       "proton"
-        "clone-depth":  "1"
+        "repository":   "vendor_xiaomi_sm6150-common-extra",
+        "target_path":  "vendor/xiaomi/sm6150-common-extra"
     }
 ]

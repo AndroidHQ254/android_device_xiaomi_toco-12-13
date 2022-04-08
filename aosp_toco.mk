@@ -14,13 +14,11 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Maintainer
-PRODUCT_PRODUCT_PROPERTIES += \
-  	ro.elixir.maintainer=DennisMurimi \
-	org.elixir.device=toco
-
 # Project Elixir Stuff
-TARGET_USES_AOSP_RECOVERY := true
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_BOOT_ANIMATION_RES := 1080
