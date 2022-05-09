@@ -20,7 +20,7 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 $(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
 
 # Firmware Toco
-$(call inherit-product, vendor/xiaomi-firmware/toco/Android.mk)
+$(call inherit-product, vendor/xiaomi-firmware/toco/firmware.mk)
 
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 29
