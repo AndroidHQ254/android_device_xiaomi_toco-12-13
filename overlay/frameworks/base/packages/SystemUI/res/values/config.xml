@@ -25,12 +25,6 @@
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
 
-    <!-- Unify back gesture vibration with system wide haptics -->
-    <bool name="config_vibrateOnIconAnimation">true</bool>
-
-    <!-- Allow devices to hide black gradient behind QS Panel -->
-    <bool name="config_hideQSBlackGradient">true</bool>
-
     <!-- The CPU temperature divider, if needed -->
     <integer name="config_cpuTempDivider" translatable="false">1000</integer>
 
