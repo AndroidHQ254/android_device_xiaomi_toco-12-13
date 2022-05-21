@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SystemUIToco",
+    theme: "SystemUIToco",
+    sdk_version: "current",
+    vendor: true,
+}

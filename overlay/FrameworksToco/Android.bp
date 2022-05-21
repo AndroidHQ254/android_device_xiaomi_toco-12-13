@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FrameworksToco",
+    theme: "FrameworksToco",
+    sdk_version: "current",
+    vendor: true,
+}
