@@ -111,10 +111,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
-    $(LOCAL_PATH)/overlay-xd
+PRODUCT_PACKAGES += \
+    FrameworksToco \
+    SettingsToco \
+    SystemUIToco \
+    WifiToco
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -147,10 +148,6 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
-
-# WiFi
-PRODUCT_PACKAGES += \
-    TocoWifiOverlay
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
