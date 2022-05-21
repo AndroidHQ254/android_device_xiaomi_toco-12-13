@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SettingsToco",
+    theme: "SettingsToco",
+    sdk_version: "current",
+    vendor: true,
+}
