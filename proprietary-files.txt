@@ -129,7 +129,6 @@ vendor/lib64/libremosaiclib.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libxml2_vendor.so
 
