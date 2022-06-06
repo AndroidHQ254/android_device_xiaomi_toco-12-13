@@ -20,6 +20,9 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
+# Compression
+PRODUCT_FS_COMPRESSION := 1
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
