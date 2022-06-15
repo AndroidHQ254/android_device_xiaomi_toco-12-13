@@ -120,6 +120,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Quick Tap
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.columbus.model=tap7cls_coral.tflite
+
 # Recovery
 PRODUCT_PACKAGES += \
     fastbootd
