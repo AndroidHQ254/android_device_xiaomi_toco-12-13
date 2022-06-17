@@ -41,7 +41,7 @@
     <integer name="config_udfpsVendorCode">22</integer>
 
     <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
-    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
+    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height_portrait</dimen>
 
     <!-- Color of the FOD view -->
     <color name="config_udfpsColor">#00ffffff</color>
