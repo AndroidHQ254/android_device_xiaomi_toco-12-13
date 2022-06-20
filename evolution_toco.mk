@@ -30,6 +30,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="toco-user 12 RKQ1.210614.002 V13.0.1.0.SFNMIXM release-keys"
+    PRIVATE_BUILD_DESC="toco-user 12 RKQ1.210614.002 V13.0.2.0.SFNMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.1.0.SFNMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.2.0.SFNMIXM:user/release-keys
