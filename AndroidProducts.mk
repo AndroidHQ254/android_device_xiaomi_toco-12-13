@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_toco.mk
+    $(LOCAL_DIR)/potato_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_toco-user \
-    derp_toco-userdebug \
-    derp_toco-eng
+    potato_toco-user \
+    potato_toco-userdebug \
+    potato_toco-eng
