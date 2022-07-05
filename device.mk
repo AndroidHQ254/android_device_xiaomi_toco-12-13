@@ -16,8 +16,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
-# ANXCamera
-$(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Firmware Toco
 $(call inherit-product, vendor/xiaomi-firmware/toco/firmware.mk)
