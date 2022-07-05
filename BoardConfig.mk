@@ -100,8 +100,8 @@ BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
-# Inherit from ANXCamera vendor
-include vendor/ANXCamera/BoardConfigAnx.mk
+# Inherit from MiuiCamera vendor
+include vendor/MiuiCamera/BoardConfigVendor.mk
 
 # Inherit from proprietary files
 include vendor/xiaomi/toco/BoardConfigVendor.mk
