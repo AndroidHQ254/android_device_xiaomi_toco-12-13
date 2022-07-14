@@ -7,10 +7,6 @@ ro.vendor.audio.us.type=mius
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
 
-# Chipset
-ro.soc.manufacturer=Qualcomm
-ro.soc.model=SM7150
-
 # Display AD
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
