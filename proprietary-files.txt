@@ -1,3 +1,7 @@
+# ADSP Modules
+-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+-vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
+
 # Audio ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Tutu/Tutu_Codec_cal.acdb
@@ -42,6 +46,12 @@ vendor/etc/init/init.batterysecret.rc
 # Camera
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/eisoverridesettings.txt
+vendor/etc/camera/female_bg.png
+vendor/etc/camera/female_icon.png
+vendor/etc/camera/male_bg.png
+vendor/etc/camera/male_icon.png
+vendor/etc/camera/score_bg.png
+vendor/etc/camera/score_icon.png
 vendor/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml
 vendor/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml
 vendor/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml
@@ -212,10 +222,12 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -system/lib64/libarcsoft_single_chart_calibration.so
 -system/lib64/libcamera_algoup_jni.xiaomi.so
 -system/lib64/libcamera_mianode_jni.xiaomi.so
-system/lib64/libcameraservice.so;MODULE=libcameraservice_micam
+-system/lib64/libcameraservice.so;MODULE=libcameraservice_micam
 -system/lib64/libdoc_photo.so
 -system/lib64/libdoc_photo_c++_shared.so
+vendor/etc/camera/MILanPro_Regular.ttf
 vendor/etc/camera/Miui-Light.ttf
+vendor/etc/camera/Roboto_Medium.ttf
 vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/mibokeh_712_opencl.bin
