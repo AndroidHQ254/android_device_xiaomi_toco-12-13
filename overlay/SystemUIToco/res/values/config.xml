@@ -44,7 +44,7 @@
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height_portrait</dimen>
 
     <!-- Color of the FOD view -->
-    <color name="config_udfpsColor">#00ffffff</color>
+    <color name="config_udfpsColor">#ffffffff</color>
 
     <!-- HBM type of UDFPS overlay.
             0 - GLOBAL HBM
