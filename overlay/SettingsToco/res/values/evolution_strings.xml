@@ -12,5 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="build_maintainer_summary">AndroidHQ254 (Dennis Murimi)</string>
+    <string name="build_maintainer_summary">Dennis Murimi (AndroidHQ254)</string>
+    <string name="build_maintainer_telegram">https://t.me/DennisMurimiWachira</string>
 </resources>
