@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_toco.mk
+    $(LOCAL_DIR)/aosp_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_toco-user \
-    cherish_toco-userdebug \
-    cherish_toco-eng
+    aosp_toco-user \
+    aosp_toco-userdebug \
+    aosp_toco-eng
