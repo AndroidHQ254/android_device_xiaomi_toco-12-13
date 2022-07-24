@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_toco.mk
+    $(LOCAL_DIR)/awaken_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_toco-user \
-    derp_toco-userdebug \
-    derp_toco-eng
+    awaken_toco-user \
+    awaken_toco-userdebug \
+    awaken_toco-eng

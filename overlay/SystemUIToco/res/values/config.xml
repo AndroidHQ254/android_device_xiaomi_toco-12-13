@@ -38,7 +38,7 @@
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1810px</dimen>
 
     <!-- Custom udfps vendor code -->
-    <integer name="config_udfps_vendor_code">22</integer>
+    <integer name="config_udfpsVendorCode">22</integer>
 
     <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height_portrait</dimen>
@@ -50,7 +50,7 @@
             0 - GLOBAL HBM
             1 - LOCAL HBM
     -->
-    <integer name="config_udfps_hbm_type">0</integer>
+    <integer name="config_udfpsHbmType">0</integer>
 
     <!-- The battery current divider, some kernel report current value in mA other in µA.
          Leave 1 if you have mA, put 1000 if you have µA-->
