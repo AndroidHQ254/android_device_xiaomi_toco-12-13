@@ -441,4 +441,7 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">0</integer>
 
+    <!-- Screen off UDFPS -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
