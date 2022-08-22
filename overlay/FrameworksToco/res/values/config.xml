@@ -435,4 +435,7 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">0</integer>
 
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
