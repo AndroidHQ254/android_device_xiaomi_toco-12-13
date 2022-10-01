@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_toco.mk
+    $(LOCAL_DIR)/corvus_toco.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_toco-user \
-    cherish_toco-userdebug \
-    cherish_toco-eng
+    corvus_toco-user \
+    corvus_toco-userdebug \
+    corvus_toco-eng
