@@ -252,30 +252,12 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M73,72 C34.5904014,71.9994844 10.2575195,71.9993984 0.00135404332,71.9997422 C-10.2556836,72.0000859 -34.5894683,72.0001719 -73,72 L-73,0 L73,0 L73,72 Z</string>
 
-    <!-- Whether the device has fingeprint sensor or not -->
-    <bool name="config_hasFingerprintSensor">true</bool>
-
-    <!-- Show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
-
-     <!-- Screen off FOD -->
-    <bool name="config_supportScreenOffFod">true</bool>
-
-    <!-- Whether device supports in-display fingerprint when screen is turned off -->
-    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
-
-    <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
-
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
     <!-- True if the display hardware only has brightness buckets rather than a full range of
          backlight values -->
     <bool name="config_displayBrightnessBucketsInDoze">true</bool>
-
-    <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">false</bool>
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
@@ -380,60 +362,6 @@
          Settings.System.RING_VIBRATION_INTENSITY more details on the constant values and
          meanings. -->
     <integer name="config_defaultRingVibrationIntensity">3</integer>
-
-    <!-- Defines the actions shown in advanced reboot submenu -->
-    <string-array name="config_restartActionsList">
-        <item>restart</item>
-        <item>restart_recovery</item>
-        <item>restart_fastboot</item>
-        <item>restart_bootloader</item>
-    </string-array>
-
-    <!-- Whether device has a notch -->
-    <bool name="config_haveNotch">true</bool>
-
-    <!-- All the capabilities of the LEDs on this device, stored as a bit field.
-         This integer should equal the sum of the corresponding value for each
-         of the following capabilities present:
-
-         // Device has a color adjustable notification light.
-         LIGHTS_RGB_NOTIFICATION_LED = 1
-
-         // Device has a color adjustable battery light.
-         LIGHTS_RGB_BATTERY_LED = 2
-
-         LIGHTS_MULTIPLE_NOTIFICATION_LED = 4 (deprecated)
-
-         // The notification light has adjustable pulsing capability.
-         LIGHTS_PULSATING_LED = 8
-
-         // Device has a multi-segment battery light that is able to
-         // use the light brightness value to determine how many
-         // segments to show (in order to represent battery level).
-         LIGHTS_SEGMENTED_BATTERY_LED = 16
-
-         // The notification light supports HAL adjustable brightness
-         // via the alpha channel.
-         // Note: if a device notification light supports LIGHTS_RGB_NOTIFICATION_LED
-         // then HAL support is not necessary for brightness control.  In this case,
-         // brightness support will be provided by lineage-sdk through the scaling of
-         // RGB color values.
-         LIGHTS_ADJUSTABLE_NOTIFICATION_LED_BRIGHTNESS = 32
-
-         // Device has a battery light.
-         LIGHTS_BATTERY_LED = 64
-
-         // The battery light supports HAL adjustable brightness via
-         // the alpha channel.
-         // Note: if a device battery light supports LIGHTS_RGB_BATTERY_LED then HAL
-         // support is not necessary for brightness control.  In this case,
-         // brightness support will be provided by lineage-sdk through the scaling of
-         // RGB color values.
-         LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS = 128
-
-         For example, a device with notification and battery lights that supports
-         pulsating and RGB control would set this config to 75. -->
-    <integer name="config_deviceLightCapabilities">0</integer>
 
     <!-- Whether devices suports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
