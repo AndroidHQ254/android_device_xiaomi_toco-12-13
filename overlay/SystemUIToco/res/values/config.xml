@@ -37,7 +37,7 @@
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">1810px</dimen>
 
     <!-- Custom udfps vendor code -->
-    <integer name="config_udfps_vendor_code">22</integer>
+    <integer name="config_udfpsVendorCode">22</integer>
 
     <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height_portrait</dimen>
