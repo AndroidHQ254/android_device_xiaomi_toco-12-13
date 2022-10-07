@@ -122,7 +122,6 @@ PRODUCT_PACKAGES += \
     WifiToco
 
 # Partitions
-PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
