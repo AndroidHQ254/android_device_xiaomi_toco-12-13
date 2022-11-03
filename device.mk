@@ -22,6 +22,10 @@ $(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     libtinycompress
