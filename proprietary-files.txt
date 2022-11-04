@@ -344,17 +344,8 @@ vendor/etc/elliptic_sensor.xml
 -vendor/lib64/sensors.mius.proximity.so
 
 # Thermal
--vendor/bin/mi_thermald
-vendor/etc/init/init.mi_thermald.rc
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermald-devices.conf
+-vendor/bin/thermal-engine
+-vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
 # Vibrator firmware
