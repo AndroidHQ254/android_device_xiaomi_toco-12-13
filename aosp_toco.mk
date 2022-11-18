@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicamera.mk)
+
 # PixelExperience Stuff
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
