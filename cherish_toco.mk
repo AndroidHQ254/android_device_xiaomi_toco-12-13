@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 # Inherit some common Cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicamera.mk)
+
 # Cherish Stuff
 CHERISH_BUILD_TYPE := UNOFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
