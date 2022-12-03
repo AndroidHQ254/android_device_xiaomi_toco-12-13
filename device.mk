@@ -57,6 +57,9 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom \
