@@ -22,6 +22,7 @@ WITH_GAPPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ANIMATIONS := true
+TARGET_NO_PREBUILT_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_toco
