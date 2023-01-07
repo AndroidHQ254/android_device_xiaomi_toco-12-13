@@ -156,6 +156,12 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1
 
+PRODUCT_PACKAGES += \
+    sensors.udfps
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Shim
 PRODUCT_PACKAGES += \
     libpiex_shim
