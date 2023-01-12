@@ -18,6 +18,7 @@ static const variant_info_t toco_global_info = {
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
     .model = "Mi Note 10 Lite",
+    .build_fingerprint = "Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.4.0.SFNMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -31,6 +32,7 @@ static const variant_info_t toco_eea_info = {
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
     .model = "Mi Note 10 Lite",
+    .build_fingerprint = "Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.4.0.SFNMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -44,6 +46,8 @@ static const variant_info_t toco_ru_info = {
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
     .model = "Mi Note 10 Lite",
+    .build_fingerprint = "Xiaomi/toco_global/toco:12/RKQ1.210614.002/V13.0.4.0.SFNMIXM:user/release-keys",
+
 
     .nfc = true,
 };
