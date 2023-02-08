@@ -22,6 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_toco
