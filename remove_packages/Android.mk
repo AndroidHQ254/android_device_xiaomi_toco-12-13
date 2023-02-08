@@ -6,40 +6,20 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     arcore \
-    Camera2 \
-    ConnMO \
-    ConnMetrics \
-    DCMO \
+    AmbientStreaming \
+    CarrierLocation \
+    CarrierMetrics \
     DevicePolicyPrebuilt \
-    DMService \
-    Drive \
-    GCS \
-    GoogleCamera \
-    Maps \
-    Music \
-    MyVerizonServices \
-    OBDM_Permissions \
-    obdm_stub \
-    OdadPrebuilt \
-    OemDmTrigger \
-    OPScreenRecord \
-    Ornament \
-    PlayAutoInstallConfig \
-	RecorderPrebuilt \
-    SCONE \
-    ScribePrebuilt \
+    DiagnosticsToolPrebuilt \
+    Gallery2 \
+    Papers \
+    Photos \
+    PhotoTable \
+    PixelLiveWallpaperPrebuilt \
+    PixelWallpapers2022 \
+    RecorderPrebuilt \
     Showcase \
-    Snap \
-    Snap2 \
-    SnapdragonCamera \
-    SoundAmplifierPrebuilt \
-    SprintDM \
-    SprintHM \
-    Tycho \
-    USCCDM \
-    Videos \
-    YouTube \
-    YouTubeMusicPrebuilt
+    SoundAmplifierPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
