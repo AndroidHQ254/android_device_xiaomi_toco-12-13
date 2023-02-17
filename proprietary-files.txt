@@ -50,6 +50,7 @@ vendor/etc/charger_fstab.qti
 # Camera
 -system/lib64/libcamera_algoup_jni.xiaomi.so
 -system/lib64/libcamera_mianode_jni.xiaomi.so
+-system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 -vendor/lib64/hw/camera.qcom.so
 -vendor/lib64/hw/com.qti.chi.override.so
 -vendor/lib64/libFaceGrade.so
