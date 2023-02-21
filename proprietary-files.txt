@@ -341,6 +341,3 @@ vendor/etc/elliptic_sensor.xml
 
 # Vibrator firmware
 vendor/firmware/drv2604.bin
-
-# WLAN
--vendor/bin/cnss-daemon
