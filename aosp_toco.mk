@@ -26,6 +26,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_SUPPORTS_CALL_RECORDING := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_toco
