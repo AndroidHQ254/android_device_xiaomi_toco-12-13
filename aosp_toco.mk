@@ -19,7 +19,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicam
 
 # PixelExperience Stuff
 TARGET_USES_AOSP_RECOVERY := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
