@@ -21,4 +21,3 @@ persist.vendor.cp.taper_term_mv=7000
 # IFAAService
 persist.vendor.sys.fp.udfps.location.X_Y=445,1715
 persist.vendor.sys.fp.udfps.size.width_height=190,190
-ro.hardware.fp.udfps=true
