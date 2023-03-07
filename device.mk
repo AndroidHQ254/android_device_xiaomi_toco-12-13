@@ -160,6 +160,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.health.storage@1.0-service
 
+# Task profile
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # VNDK
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
