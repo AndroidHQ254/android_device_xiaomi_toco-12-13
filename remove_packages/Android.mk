@@ -6,13 +6,19 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     arcore \
+    AmbientStreaming \
     Camera2 \
+    CarrierLocation \
+    CarrierMetrics \
     ConnMO \
     ConnMetrics \
     DCMO \
     DevicePolicyPrebuilt \
+    DiagnosticsToolPrebuilt \
     DMService \
     Drive \
+    FilesPrebuilt \
+    Gallery2 \
     GCS \
     GoogleCamera \
     Maps \
@@ -24,6 +30,10 @@ LOCAL_OVERRIDES_PACKAGES := \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Photos \
+    PhotoTable \
+    PixelLiveWallpaperPrebuilt \
+    PixelWallpapers2022 \
     PlayAutoInstallConfig \
 	RecorderPrebuilt \
     SCONE \
