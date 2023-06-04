@@ -150,10 +150,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.columbus.model=tap7cls_coral.tflite
 
-# Recovery
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePkgs
