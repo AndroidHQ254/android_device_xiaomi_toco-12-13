@@ -1,1 +1,5 @@
 persist.device_config.tethering.                u:object_r:device_config_tethering_prop:s0
+
+# Elliptic ultrasound proximity
+elliptic.ultrasound.               u:object_r:vendor_sensors_prop:s0
+invn.hal                           u:object_r:vendor_sensors_prop:s0
