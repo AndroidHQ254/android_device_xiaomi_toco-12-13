@@ -134,9 +134,6 @@ PRODUCT_PACKAGES += \
     SystemUIToco \
     WifiToco
 
-# Partitions
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
