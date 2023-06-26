@@ -15,6 +15,7 @@ static const variant_info_t toco_global_info = {
     .sku_value = "",
 
     .mod_device = "toco_global",
+    .name = "toco_global",
     .brand = "Xiaomi",
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
@@ -29,6 +30,7 @@ static const variant_info_t toco_eea_info = {
     .sku_value = "",
 
     .mod_device = "toco_global",
+    .name = "toco_global",
     .brand = "Xiaomi",
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
@@ -43,6 +45,7 @@ static const variant_info_t toco_ru_info = {
     .sku_value = "",
 
     .mod_device = "toco_global",
+    .name = "toco_global",
     .brand = "Xiaomi",
     .device = "toco",
     .marketname = "Xiaomi Mi Note 10 Lite",
