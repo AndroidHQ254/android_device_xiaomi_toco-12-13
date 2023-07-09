@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Call the MiuiCamera setup
+TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_USES_MIUI_CAMERA := true
 $(call inherit-product-if-exists, vendor/xiaomi/toco-miuicamera/products/miuicamera.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
