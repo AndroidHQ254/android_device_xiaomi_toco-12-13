@@ -172,5 +172,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.vndk.current.on_vendor
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    PixelWallpapers2023Foldable
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
