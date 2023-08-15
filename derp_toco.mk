@@ -22,6 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_toco
