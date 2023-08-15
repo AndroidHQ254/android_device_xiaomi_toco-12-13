@@ -23,6 +23,7 @@ WITH_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_CALL_RECORDING := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_toco
