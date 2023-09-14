@@ -70,9 +70,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
-# Get Hotword stuff
-$(call inherit-product-if-exists, vendor/xiaomi/google/google.mk)
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
