@@ -248,6 +248,9 @@ vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_
 -vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
 -vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
 
+# DRM
+-vendor/lib64/liboemcrypto.so
+
 # Fingerprint
 -vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
 -vendor/lib64/libgf_hal.so
